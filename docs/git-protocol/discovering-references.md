@@ -4,8 +4,8 @@ sidebar_position: 2
 
 # 1. Discovering References
 
-The first step on the git protocol is to stablish the tell the server side tha will want to know the state of git
-at their end, we do this by making a `get` request to the server.
+The first step on the git protocol is to establish and tell the server side that we want to know the state of git
+on their end. We do this by making a `get` request to the server.
 
 We can achieve this by request the reference to the following url: `/info/refs?service=git-upload-pack`.
 
