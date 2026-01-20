@@ -7,7 +7,7 @@ sidebar_position: 2
 The first step on the git protocol is to establish and tell the server side that we want to know the state of git
 on their end. We do this by making a `get` request to the server.
 
-We can achieve this by request the reference to the following url: `/info/refs?service=git-upload-pack`.
+We can achieve this by requesting the reference to the following url: `/info/refs?service=git-upload-pack`.
 
 There are some other parameters that can be sent in other to request more information, please refers to the technical
 documentation on git.
